@@ -43,6 +43,7 @@ int main()
 	// testing calc_c
 	{
 		int A;
+		int l;
 		double B,C;
 		//Ввод исходных данных
 		cout << "Тестування calc_c" << endl;
