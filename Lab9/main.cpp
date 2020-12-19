@@ -6,13 +6,10 @@ using namespace std;
 
 int main()
 {
-	SetConsoleCP(1251);
-	SetConsoleOutputCP(1251);
-
 	double y, x;
 	int i;
 
-	cout << "Введіть x: ";
+	cout << "Enter x: ";
 	cin >> x;
 	
 	if (x != -2)
@@ -25,8 +22,8 @@ int main()
 		}
 	}
 	else {
-		cout << "Ділення на нуль неможливе!" << endl;
+		cout << "Invalid values!" << endl;
 	}
 
-	cout << "Результат: " << (y + sin(x)) / (x + 2) << endl;
+	cout << "Result: " << (y + sin(x)) / (x + 2) << endl;
 }
